@@ -163,14 +163,14 @@ int main() {
     //         break;
     //  }
 
-    
+
 //  int age;
-//     std::cout << "Unesite svoje godine: " << '\n';
+//     std::cout << "Unesie svoje godine: " << '\n';
 //     std::cin >> age;
 
     // condition ? expression1 : expression2
     // uslov ? onda1 : onda2
     // age >= 18 ? std::cout << "Punoletan/na si" : std::cout << "Nisi punoletan/na"; 
 
-     return 0;
+     return 0;;
 }
