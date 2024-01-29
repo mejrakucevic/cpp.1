@@ -57,7 +57,6 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
-    "ostream": "cpp",
     "array": "cpp",
     "atomic": "cpp",
     "*.tcc": "cpp",
@@ -94,6 +93,7 @@
     "istream": "cpp",
     "limits": "cpp",
     "new": "cpp",
+    "ostream": "cpp",
     "sstream": "cpp",
     "stdexcept": "cpp",
     "streambuf": "cpp",

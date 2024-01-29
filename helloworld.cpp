@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <cmath>
 
 // typedef std::vector<std::pair<std::string, int>> pairlist_t
 
@@ -23,11 +24,25 @@ int main() {
 
     // std::cout << "You are " << age << " years old";
 
-    std::cout << "What's your full name? ";
-    stringT namee;
-    std::getline(std::cin >> std::ws, namee);
+    //std::cout << "What's your full name? ";
+   // stringT namee;
+    //std::getline(std::cin >> std::ws, namee);
 
-    std::cout << namee;
+   // std::cout << namee;
+
+
+   // double x = 3;
+   // double y = 4;
+   // double z = pow(2, 3);
+   // double f = sqrt(64);
+
+   // z = std::max(x,y);
+    //f = std::min(x, y);
+
+    //std::cout << z <<  '\n';
+    //std::cout << f;
+
+
  
   
     // Ovo je komentar
@@ -70,6 +85,92 @@ int main() {
    
     // int m = 1;
     // std::cout << m;
+
+    // hipotenuza pravouglog trougla
+    
+    // double a, b;
+    // double c;
+    // std::cout << "--Kalkulator hipotenuze pravouglog trougla--" << '\n';
+    // std::cout << "Unesite stranicu a: " << '\n';
+    // std::cin >> a;
+
+    // std::cout << "Unesite stranicu b: " << '\n';
+    // std::cin >> b;
+
+    // c = sqrt(pow(a, 2) + pow(b, 2));
+    // std::cout << "Hipotenuza jeste: " << c;
+
+    //  int age;
+    // std::cout << "Unesite svoje godine: " << '\n';
+    // std::cin >> age;
+
+    // if (age < 0) {
+    //     std::cout << "Unesite tacan broj aman";
+    // } else if (age >= 18) {
+    //     std::cout << "Ti si punoletna osoba";
+    // } else std::cout << "Ti nisi punoletna osoba";
+
+//     std::cout << "Unesite mesec (1-12): ";
+//     int mesec;
+//     std::cin >> mesec;
+
+//     switch (mesec) {
+//         case 1:
+//            std::cout << "Januar je";
+//            break;
+//         case 2:
+//            std::cout << "Februar je";
+//            break;
+
+//         case 3:
+//            std::cout << "Mart je";
+//            break;
+//  }
+
+     // KALKULATOR
+
+    //  double a, b;
+    //  int op;
+    //  double r;
+    //  std::cout << "--KALKULATOR--" << '\n';
+    //  std::cout << "Unesite prvi broj:";
+    //  std::cin >> a;
+
+    //  std::cout << "Unesite drugi broj:";
+    //  std::cin >> b;
+
+    //  std::cout << '\n' << "Izaberite operaciju (1-4)" << '\n';
+
+    //  std::cout << "1. +" << '\n' << "2. -" << '\n' << "3. *" << '\n' << "4. /";
+    //  std::cin >> op;
+
+    //  switch(op) {
+    //     case 1:
+    //         r = a + b;
+    //         std::cout << r;
+    //         break;
+    //     case 2:
+    //         r = a - b;
+    //         std::cout << r;
+    //         break;
+    //     case 3:
+    //         r = a * b;
+    //         std::cout << r;
+    //         break;
+    //      case 4:
+    //         r = a / b;
+    //         std::cout << r;
+    //         break;
+    //  }
+
+    
+//  int age;
+//     std::cout << "Unesite svoje godine: " << '\n';
+//     std::cin >> age;
+
+    // condition ? expression1 : expression2
+    // uslov ? onda1 : onda2
+    // age >= 18 ? std::cout << "Punoletan/na si" : std::cout << "Nisi punoletan/na"; 
 
      return 0;
 }
