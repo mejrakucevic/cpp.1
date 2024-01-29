@@ -172,5 +172,50 @@ int main() {
     // uslov ? onda1 : onda2
     // age >= 18 ? std::cout << "Punoletan/na si" : std::cout << "Nisi punoletan/na"; 
 
-     return 0;;
+     
+
+     // temperature conversion program
+
+    
+    std::cout << "Temperature Conversion" << '\n';
+     std::cout << "What's the unit you're using? (C or F)" << '\n';
+      char unit;
+     std::cin >> unit;
+     int F;
+     int C;
+     int res;
+
+     // 1. using switch case
+    //  switch(unit) {
+    //     case 1:
+
+    //     std::cout << "Temperature in Fahrenheit : " << '\n';
+    //     std::cin >> F;
+    //     res = (F - 32) * 5/9;
+    //     std::cout << "It's " << res << "C";
+    //     break;
+        
+    //     case 2:
+    //      std::cout << "Temperature in Celsius : " << '\n';
+    //     std::cin >> C;
+    //     C = (C*9/5) + 32;
+    //     std::cout << "It's " << C << "F";
+    //     break;
+            
+    //  }
+
+    // 2. using if else statements
+    // if (unit == 'F'  || unit == 'f') {
+    //     std::cout << "Enter the temperature:" << '\n';
+    //     std::cin >> F;
+    //     res = (F - 32) * 5/9;
+    //     std::cout << "Temperature is " << res << "C";
+    // } else if (unit == 'C' || unit == 'c') {
+    //     std::cout << "Enter the temperature:" << '\n';
+    //     std::cin >> C;
+    //     res =  (C*9/5) + 32;
+    //     std::cout << "Temperature is " << res << "F";
+    // } else std::cout << "Incorrect user input!";
+
+     return 0;
 }
