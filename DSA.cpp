@@ -54,7 +54,7 @@ class Stack{
         }
 
         int peek(int pos) {
-            if (isEmpty) {
+            if (isEmpty()) {
                 cout<<"stack underflow"<<endl;
                 return 0;
             } else {

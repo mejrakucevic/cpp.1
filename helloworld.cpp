@@ -9,9 +9,57 @@ namespace first{
     int m = 22;
 }
 
-using stringT = std::string; // isto kao typedef
+using namespace std; 
 
 int main() {
+
+    // USEFULL STRING METHODS
+    // string name;
+    // cout<<"Enter your name: ";
+    // getline(cin, name);
+
+    // if (name.length() > 12) {
+    //     cout << "Your name can't be over 12 characters!";
+    // } else cout << "Welcome " << name;
+
+    
+    // if (name.empty()) {
+    //     cout << "You didn't type anything dawg";
+    // } else cout << "Welcome " << name;
+
+    // name.clear();
+    // cout << "Hello " << name;
+
+    // name.append("@gmail.com");
+    // cout << "Your email is now " << name;
+
+    // cout << name.at(0);
+
+    // name.insert(0, "@");
+    // cout << name;
+
+    // cout << name.find(' ');
+
+    // name.erase(0, 6);
+    // cout << name;
+
+     // USEFULL STRING METHODS GORE
+
+    // WHILE LOOP
+    // string name;
+    // int number;
+
+    // do {
+    //     cout << "Enter a positive number: ";
+    //     cin >> number;
+    // } while (number <= 0);
+
+    // cout << "#" << number;
+
+    // for (int i = 1; i <= 3; i++) {
+    //     cout << i << '\n';
+    // }
+
     // stringT Mejra = "Mejra";
     // int correct = 8;
     // int questions = 10;
@@ -177,13 +225,13 @@ int main() {
      // temperature conversion program
 
     
-    std::cout << "Temperature Conversion" << '\n';
-     std::cout << "What's the unit you're using? (C or F)" << '\n';
-      char unit;
-     std::cin >> unit;
-     int F;
-     int C;
-     int res;
+    // std::cout << "Temperature Conversion" << '\n';
+    //  std::cout << "What's the unit you're using? (C or F)" << '\n';
+    //   char unit;
+    //  std::cin >> unit;
+    //  int F;
+    //  int C;
+    //  int res;
 
      // 1. using switch case
     //  switch(unit) {
