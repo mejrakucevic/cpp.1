@@ -92,6 +92,22 @@ int main() {
         cout<<"8. display()"<<endl;
         cout<<"9. Clear screen"<<endl<<endl;
 
+        cin >> option;
+
+        switch(option) {
+            case 1:
+               cout << "Enter an item to push in the stack" << endl;
+               cin >> value;
+               s1.push(value);
+               break;
+
+               case 2:
+               cout << "Pop function called - poped value" << s1.pop()<<endl;
+               cin >> value;
+               s1.push(value);
+               break;
+        }
+
     } while(option!=0);
 
 

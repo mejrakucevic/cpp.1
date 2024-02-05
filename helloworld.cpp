@@ -66,7 +66,7 @@ int main() {
 
     //   cout << "\ntook you " << count << " number of tries";
 
-         return 0;
+       
     // USEFULL STRING METHODS
     // string name;
     // cout<<"Enter your name: ";
@@ -319,5 +319,5 @@ int main() {
     //     std::cout << "Temperature is " << res << "F";
     // } else std::cout << "Incorrect user input!";
 
-   
+     return 0;
 }
