@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
-
+#include <ctime>
 // typedef std::vector<std::pair<std::string, int>> pairlist_t
 
 // typedef std::string string_t;
@@ -12,7 +12,61 @@ namespace first{
 using namespace std; 
 
 int main() {
+    // random number generating
+    // srand(time(NULL));
 
+    // int random1 = (rand() % 20) + 1;
+    // int random2 = (rand() % 20) + 1;
+    // int random3 = (rand() % 20) + 1;  // from 1 to 20
+    // cout << random1 << '\n';
+    // cout << random2 << '\n';
+    // cout << random3 << '\n';
+
+    // random event generator
+    // srand(time(NULL));
+    // int randNum = (rand() % 5) + 1;
+
+    // switch(randNum) {
+    //     case 1: cout << "You win a bumper sticker!\n"; break;
+
+    //     case 2: cout << "You win a tshirt!\n"; break;
+
+    //     case 3: cout << "You win a free lunch!\n"; break;
+
+    //     case 4: cout << "You win a gift card!\n"; break;
+
+    //     case 5: cout << "You win a ps5!\n"; 
+    // }
+
+     // number guessing game
+      
+    //   srand(time(NULL));
+
+    //   int num = rand() % 50 + 1;
+    //   int guessNum;
+
+    //   cout << "Enter your guess: ";
+     
+
+    //    cout << "Number guessing game! (1-10)\n";
+    //    int count = 0;
+       
+    //   do {
+         
+    //   cout << "Enter your guess: ";
+    //   cin >> guessNum;
+
+    //    if (num > guessNum) {
+    //         cout << "Number is Higher!";
+    //     } else if (num < guessNum) {
+    //         cout << "Number is Lower!";
+    //     } else cout << "Cooreect";
+    //     count++;
+    //   } while (num != guessNum);
+
+    //   cout << "\ntook you " << count << " number of tries";
+
+         return 0;
     // USEFULL STRING METHODS
     // string name;
     // cout<<"Enter your name: ";
@@ -265,5 +319,5 @@ int main() {
     //     std::cout << "Temperature is " << res << "F";
     // } else std::cout << "Incorrect user input!";
 
-     return 0;
+   
 }
