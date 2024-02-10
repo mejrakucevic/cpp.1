@@ -9,11 +9,13 @@ namespace first{
     int m = 22;
 }
 
-using namespace std; 
-
 int main() {
     // random number generating
     // srand(time(NULL));
+    // int r = (rand() % 50) + 1;
+    // pseudo random broj: 
+    //srand time null
+    // rand $ broj + 1
 
     // int random1 = (rand() % 20) + 1;
     // int random2 = (rand() % 20) + 1;
@@ -143,9 +145,6 @@ int main() {
 
     //std::cout << z <<  '\n';
     //std::cout << f;
-
-
- 
   
     // Ovo je komentar
     // std::cout << "Ja volim kafu!\n";
@@ -156,7 +155,6 @@ int main() {
     // int suma = x + y;
     // std::cout << x << '\n';
     // std::cout << y << '\n';
-   
 
     // int godina = 2024;
     // double prosek = 9.1;
@@ -273,7 +271,6 @@ int main() {
     // condition ? expression1 : expression2
     // uslov ? onda1 : onda2
     // age >= 18 ? std::cout << "Punoletan/na si" : std::cout << "Nisi punoletan/na"; 
-
      
 
      // temperature conversion program
@@ -318,6 +315,38 @@ int main() {
     //     res =  (C*9/5) + 32;
     //     std::cout << "Temperature is " << res << "F";
     // } else std::cout << "Incorrect user input!";
+
+    using namespace std; 
+    std::cout << "Coffee Maker Machine Set Instructions\n"; 
+
+    // 1. instructions
+    // 2. start/stop
+     int option;
+     cout<< "Insert";
+     cin << option;
+
+    while (option != 0) { 
+     switch(option) {
+         case 1:
+
+         break;
+
+         case 2:
+
+         break;
+
+         case 3:
+
+         break;
+     } }
+
+     if (option != 0) {
+
+        continue;
+     }
+
+    // 3. stop
+        
 
      return 0;
 }
