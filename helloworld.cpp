@@ -2,6 +2,7 @@
 #include <vector>
 #include <cmath>
 #include <ctime>
+#include <string>
 // typedef std::vector<std::pair<std::string, int>> pairlist_t
 
 // typedef std::string string_t;
@@ -9,7 +10,9 @@ namespace first{
     int m = 22;
 }
 
+
 int main() {
+   
     // random number generating
     // srand(time(NULL));
     // int r = (rand() % 50) + 1;
@@ -316,17 +319,60 @@ int main() {
     //     std::cout << "Temperature is " << res << "F";
     // } else std::cout << "Incorrect user input!";
 
-    using namespace std; 
+   
 
 
  
 
 
-// Example 1:
+// To-Do List Application:
 
-// Input: s = "()"
-// Output: true
-        
+// add a task
+// remove task
+// view tasks
+//  using namespace std; 
+// const int maxTasks = 5;
+// cout << "To-Do List Application\n";
+//      vector<string> tasks;
+//      int numTasks = 0;
+//        int choice;
+//        int taskNum;
+//         string newTask;
 
+//     cout << "Menu\n1. Add Task\n2. Remove Task\n3. View Tasks\n4.Exit\n";
+//      do { 
+//        switch(choice) {
+//         case 1:
+//             cout << "Enter a task: ";
+//             cin.ignore();
+//             getline(cin, newTask);
+//             tasks.push_back(newTask); 
+//             ++numTasks;
+//             break;
+//         case 2:
+//            for (int i = 0; i < numTasks; i++) {
+//             cout << i+1 << "." << tasks[i] << endl;
+//            }
+//            cout << "Enter the number of task you wanna remove: ";
+//            cin >> taskNum;
+
+//            tasks.erase(tasks.begin() + taskNum - 1);
+
+//            for (int i = 0; i < numTasks; i++) {
+//             cout << i+1 << "." << tasks[i] << endl;
+//            }
+//            break;
+//         case 3:
+//            for (int i = 0; i < numTasks; i++) {
+//             cout << i+1 << "." << tasks[i] << endl;
+//            }
+//            break;
+//         case 4:
+//             cout << "Exiting...";
+//             return 0;
+//        } 
+//       cout << "Enter your choice: ";
+//        cin >> choice;
+//        } while(choice != 4);
      return 0;
 }
