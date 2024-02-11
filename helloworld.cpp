@@ -317,35 +317,15 @@ int main() {
     // } else std::cout << "Incorrect user input!";
 
     using namespace std; 
-    std::cout << "Coffee Maker Machine Set Instructions\n"; 
 
-    // 1. instructions
-    // 2. start/stop
-     int option;
-     cout<< "Insert";
-     cin << option;
 
-    while (option != 0) { 
-     switch(option) {
-         case 1:
+ 
 
-         break;
 
-         case 2:
+// Example 1:
 
-         break;
-
-         case 3:
-
-         break;
-     } }
-
-     if (option != 0) {
-
-        continue;
-     }
-
-    // 3. stop
+// Input: s = "()"
+// Output: true
         
 
      return 0;
