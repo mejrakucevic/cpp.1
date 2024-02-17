@@ -6,12 +6,21 @@
 // typedef std::vector<std::pair<std::string, int>> pairlist_t
 
 // typedef std::string string_t;
-namespace first{
-    int m = 22;
+
+using namespace std;
+
+void happyBday(string name, int age) {  // function = a block of reusable code
+
+    cout << "Happy birthday to " << name << '\n';
+    cout << "Happy birthday to you!\n";
+    cout << "Happy birthday dear you " << name << '\n';
+    cout << "Happy " << age << '\n'; 
 }
-
-
 int main() {
+    string name = "Mejra";
+    int age = 19;
+    happyBday(name, age);
+     happyBday(name, age);
    
     // random number generating
     // srand(time(NULL));
@@ -319,12 +328,6 @@ int main() {
     //     std::cout << "Temperature is " << res << "F";
     // } else std::cout << "Incorrect user input!";
 
-   
-
-
- 
-
-
 // To-Do List Application:
 
 // add a task
@@ -374,5 +377,7 @@ int main() {
 //       cout << "Enter your choice: ";
 //        cin >> choice;
 //        } while(choice != 4);
+
+
      return 0;
 }
