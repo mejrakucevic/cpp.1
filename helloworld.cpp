@@ -41,93 +41,90 @@ using namespace std;
     // Deposit
     // Withdraw
     // Search
-void openAccount(string& name, string yrBirth, int& id) { // strings need pointers WOMP WOMP
-    cout << "Welcome to MK Bank!\n";
+// void openAccount(string& name, string yrBirth, int& id) { // strings need pointers WOMP WOMP
+//     cout << "Welcome to MK Bank!\n";
 
-    cout << "Please enter your full name: ";
-    cin.ignore();
-    getline(cin, name);
+//     cout << "Please enter your full name: ";
+//     cin.ignore();
+//     getline(cin, name);
     
 
-    cout << "\nPlease enter your date of birth: ";
-    cin >> yrBirth;
+//     cout << "\nPlease enter your date of birth: ";
+//     cin >> yrBirth;
 
     
-    cout << "\nPlease enter your ID number: ";
-    cin >> id;
+//     cout << "\nPlease enter your ID number: ";
+//     cin >> id;
 
-    cin.ignore();
+//     cin.ignore();
 
-    cout << "\nAccount successfully created!";
-}
+//     cout << "\nAccount successfully created!";
+// }
 
-int AccountInfo(string& name, int id, double& balance) {
-    cout << "Name: " << name;
-    cout << "\nID: " << id;
-    cout << "\nBalance: $" << balance;
-}
+// int AccountInfo(string& name, int id, double& balance) {
+//     cout << "Name: " << name;
+//     cout << "\nID: " << id;
+//     cout << "\nBalance: $" << balance;
+// }
 
-int Deposit(double deposit, double& balance) {
-    cout << "Enter the amount you want to deposit: ";
-    cin >> deposit;
-    cout << "\n$"<< deposit << " has been sucessfully deposited";
-    balance += deposit;
+// int Deposit(double deposit, double& balance) {
+//     cout << "Enter the amount you want to deposit: ";
+//     cin >> deposit;
+//     cout << "\n$"<< deposit << " has been sucessfully deposited";
+//     balance += deposit;
     
-}
+// }
 
-int Withdraw(double& balance, double withdraw) {
-    cout << "Enter the amount you want to withdraw: ";
-    cin >> withdraw;
-    if (balance < withdraw) {
-        cout << "Funds not available.";
+// int Withdraw(double& balance, double withdraw) {
+//     cout << "Enter the amount you want to withdraw: ";
+//     cin >> withdraw;
+//     if (balance < withdraw) {
+//         cout << "Funds not available.";
 
-    } else {
-        cout << "\n$"<< withdraw << " has been sucessfully withdrawn";
-        balance = balance - withdraw;
-    }
-}
+//     } else {
+//         cout << "\n$"<< withdraw << " has been sucessfully withdrawn";
+//         balance = balance - withdraw;
+//     }
+// }
 
-int main() {
-    string name, yrBirth;
-    double  deposit, withdraw;
-    double balance = 0;
-    int id, menu;
+ int main() {
+//     string name, yrBirth;
+//     double  deposit, withdraw;
+//     double balance = 0;
+//     int id, menu;
 
-    cout << "Welcome to MK Bank!\nMenu:\n1. Open Accout\n2. Account Info\n3. Deposit\n4. Withdraw\n5. Exit";
-     cout << "\nPlease enter the number of action: ";
-    cin >> menu;
-   
+//     cout << "Welcome to MK Bank!\nMenu:\n1. Open Accout\n2. Account Info\n3. Deposit\n4. Withdraw\n5. Exit";
+//      cout << "\nPlease enter the number of action: ";
+//     cin >> menu;
 
-  do { 
+//   do { 
     
-    switch(menu) {
-        case 1: 
-        openAccount(name, yrBirth, id);
-        break;
+//     switch(menu) {
+//         case 1: 
+//         openAccount(name, yrBirth, id);
+//         break;
 
-        case 2:
-        AccountInfo(name, id, balance);
-        break;
+//         case 2:
+//         AccountInfo(name, id, balance);
+//         break;
 
-        case 3:
-        Deposit(deposit, balance);
-        break;
+//         case 3:
+//         Deposit(deposit, balance);
+//         break;
 
-        case 4:
-        Withdraw(balance, withdraw);
-        break;
+//         case 4:
+//         Withdraw(balance, withdraw);
+//         break;
 
-        case 5:
-        cout <<"Exiting...";
-        break;
+//         case 5:
+//         cout <<"Exiting...";
+//         break;
 
-
-
-    }     cout << "\n1. Open Accout\n2. Account Info\n3. Deposit\n4. Withdraw\n5. Exit";
+//     }     cout << "\n1. Open Accout\n2. Account Info\n3. Deposit\n4. Withdraw\n5. Exit";
  
-    cout << "\nPlease enter the number of action: ";
-      cin >> menu;
-    } while(menu != 5);
+//     cout << "\nPlease enter the number of action: ";
+//       cin >> menu;
+//     } while(menu != 5);
 
  // --------------------------------------------------------------------------------------------------------------------------------
 
