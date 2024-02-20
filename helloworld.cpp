@@ -9,18 +9,65 @@
 
 using namespace std;
 
-void happyBday(string name, int age) {  // function = a block of reusable code
+// void happyBday(string name, int age) {  // function = a block of reusable code
 
-    cout << "Happy birthday to " << name << '\n';
-    cout << "Happy birthday to you!\n";
-    cout << "Happy birthday dear you " << name << '\n';
-    cout << "Happy " << age << '\n'; 
+//     cout << "Happy birthday to " << name << '\n';
+//     cout << "Happy birthday to you!\n";
+//     cout << "Happy birthday dear you " << name << '\n';
+//     cout << "Happy " << age << '\n'; 
+//}
+
+// int square(double length) {
+//     double result = length*length;
+//     return result;
+// }
+// void bakePizza() {
+//     cout << "Here is your pizza\n";
+// }
+
+// void bakePizza(string topping1) {
+//     cout << "Here is your pizza with " << topping1;
+
+// }
+// void bakePizza(string topping1, string topping2) {
+//     cout << "\nHere is your pizza with " << topping1 <<" and " << topping2;
+
+// }
+
+void openAccount() {
+    cout << "Welcome to MK Bank!";
 }
+
+int AccountInfo() {}
+
+int Deposit() {}
+
+int Withdraw() {}
+
 int main() {
-    string name = "Mejra";
-    int age = 19;
-    happyBday(name, age);
-     happyBday(name, age);
+
+
+ // ----------------------------------------------------------------
+    // ------ Bank Management System using Class in C++ ----------
+    // Opening an account
+    // Show account info
+    // Deposit
+    // Withdraw
+    // Search
+ // ----------------------------------------------------------------
+
+
+    // bakePizza();
+
+    
+    // bakePizza("cheese");
+    // bakePizza("cheese", "mushrooms");
+    // double length = 5.0;
+    // cout << square(length);
+    // string name = "Mejra";
+    // int age = 19;
+    // happyBday(name, age);
+    //  happyBday(name, age);
    
     // random number generating
     // srand(time(NULL));
