@@ -87,7 +87,7 @@ using namespace std;
 //     }
 // }
 
- int main() {
+//  int main() {
 //     string name, yrBirth;
 //     double  deposit, withdraw;
 //     double balance = 0;
@@ -498,5 +498,19 @@ using namespace std;
 //        } while(choice != 4);
 
 
-     return 0;
+//      return 0;
+// }
+
+int main() {
+    // string car[] = {"Audi", "Opel", "Ferrari"};
+    // int n = sizeof(car)/sizeof(string); // !!!!!!!!!!!!!!!!!!!!!!!!
+    
+    // for (int i = 0; i < n; i++) {
+    //     cout << car[i] << "\n";
+    // }
+    //cout << car[1];
+    
+   
+    return 0;
+
 }
