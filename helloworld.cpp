@@ -501,13 +501,32 @@ using namespace std;
 //      return 0;
 // }
 
+// int getTotal(int numbers[], int n) {
+//     int sum = 0;
+//     for (int i = 0; i < n; i++) {
+//         sum += numbers[i];
+//     }
+//     return sum;
+
+// }
+
 int main() {
-    // string car[] = {"Audi", "Opel", "Ferrari"};
+    string cars[] = {"Audi", "Opel", "Ferrari"};
+    int sum;
     // int n = sizeof(car)/sizeof(string); // !!!!!!!!!!!!!!!!!!!!!!!!
+
+    // for each loop
+    //  for (int number : numbers) {
+    //     cout << number;
+    //  }
+
+
+    int numbers[] = {9,64,32,344};
+    int n = sizeof(numbers)/sizeof(int);
+    // int total = getTotal(numbers, n);
+    // cout << total;
     
-    // for (int i = 0; i < n; i++) {
-    //     cout << car[i] << "\n";
-    // }
+   
     //cout << car[1];
     
    
