@@ -260,3 +260,29 @@ using namespace std;
 //        }
 // return 0;
 // }
+
+// 42. Make a program that reads the age of 3 people and how many of them are of legal age
+
+// int main() {
+//             double n1,n2,n3;
+//     cout << "Enter first number: ";
+//      cin >> n1;
+//       cout << "Enter second number: ";
+//      cin >> n2;
+//       cout << "Enter third number: ";
+//      cin >> n3;
+
+//      int count = 0;
+
+//      if (n1 >= 18) {
+//         count++;
+//      } if (n2 >= 18) {
+//         count++;
+//      } if (n3 >= 18) {
+//         count++;
+//      }
+
+//      cout << count;
+
+//     return 0;
+// }
