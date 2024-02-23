@@ -510,6 +510,14 @@ using namespace std;
 
 // }
 
+int searchArr(int n, int numbers[], int element) {
+    for (int i = 0; i<n; i++) {
+        if (numbers[i] == element) {
+            return i;
+        }   
+    } return -1;
+
+}
 int main() {
     string cars[] = {"Audi", "Opel", "Ferrari"};
     int sum;
@@ -521,10 +529,22 @@ int main() {
     //  }
 
 
-    int numbers[] = {9,64,32,344};
+    int numbers[] = {9, 64, 32, 344};
     int n = sizeof(numbers)/sizeof(int);
     // int total = getTotal(numbers, n);
     // cout << total;
+
+    int num, index;
+    cout << "Enter a number to search for: ";
+    cin >> num;
+    index = searchArr(n, numbers, num);
+    
+    if (index != -1) {
+        cout << num << " is at index " << index;
+    } else {
+        cout << num << " not found ";
+    }
+
     
    
     //cout << car[1];

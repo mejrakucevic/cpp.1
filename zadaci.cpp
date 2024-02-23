@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cmath>
 
 using namespace std;
 // 7. make a program that asks for the user's full name, and prints the name on the screen
@@ -126,4 +127,19 @@ using namespace std;
 
 // }
 
-// 13.
+// 14. Write a program that reads two numbers, the first being the base and the second the exponent, and then printing the first number raised to the second  // 
+
+int main (){
+    int base, exp;
+    cout << "Enter the base: ";
+    cin >> base;
+    cout << "\NEnter the exponent: ";
+    cin >> exp;
+
+    int 
+     
+    
+
+    return 0;
+}
+
