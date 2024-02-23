@@ -205,3 +205,58 @@ using namespace std;
 //     cout << "Final value of the product is: " << total;
 //     return 0;
 // }
+
+// 32. Write a program that reads a number and reports whether it is odd or even
+
+// int main() {
+//      int num;
+//      cout << "Enter a number: ";
+
+//      cin >> num;
+
+//      if (num % 2 == 0) {
+//         cout << num << " is even.";
+//      } else cout << num << " is odd.";
+
+// }
+
+// 34. Program that reads 3 numbers and checks if their sum is positive, negative or equal to zero
+// int main() {
+//     double n1,n2,n3;
+//     cout << "Enter first number: ";
+//      cin >> n1;
+//       cout << "Enter second number: ";
+//      cin >> n2;
+//       cout << "Enter third number: ";
+//      cin >> n3;
+
+//      double sum = n1+n2+n3;
+//      if (sum == 0) {
+//         cout << "Sum is equal to zero";
+//      } else if (sum > 0) {
+//                 cout << "Sum is positive";
+//      } else cout << "Sum is negative.";  
+
+// return 0;
+// }
+
+// 36. Program that asks the user for 3 numbers and displays the largest one
+// int main() {
+//         double n1,n2,n3;
+//     cout << "Enter first number: ";
+//      cin >> n1;
+//       cout << "Enter second number: ";
+//      cin >> n2;
+//       cout << "Enter third number: ";
+//      cin >> n3;
+
+//        if (n1 > n2 && n1 > n3) {
+//         cout << "Number 1 : " << n1 << " is the largest one!";
+//        } else if (n2 > n1 && n2 > n3) {
+//         cout << "Number 2 : " << n2 << " is the largest one!";
+//        } else if (n3 > n1 && n3 > n2) {  cout << "Number 3 : " << n3 << " is the largest one!";
+//        } else if (n1 == n2 == n3) {
+//         cout << "All numbers are equal!";
+//        }
+// return 0;
+// }
