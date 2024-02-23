@@ -129,17 +129,79 @@ using namespace std;
 
 // 14. Write a program that reads two numbers, the first being the base and the second the exponent, and then printing the first number raised to the second  // 
 
-int main (){
-    int base, exp;
-    cout << "Enter the base: ";
-    cin >> base;
-    cout << "\NEnter the exponent: ";
-    cin >> exp;
+// int main (){
+//     int base, exp;
+//     cout << "Enter the base: ";
+//     cin >> base;
+//     cout << "Enter the exponent: ";
+//     cin >> exp;
 
-    int 
+//     int raised = pow(base, exp);
+//     cout << base << " raised to " << exp << " equals " << raised;
      
+//     return 0;
+// }
+
+// 16. Write a program that calculates the geometric mean of
+// 3 numbers entered by the user -> geomean = 3SQRTn1*n2*n3
+
+// int main(){
+//     double n1,n2,n3;
+//     double result;
+
+//      cout << "Enter first number: ";
+//      cin >> n1;
+
+//      cout << "Enter second number: ";
+//      cin >> n2;
+
+//      cout << "Enter third number: ";
+//      cin >> n3;
+
+//      result = cbrt(n1*n2*n3); // cbrt za treci koren
+//      cout << "Geometric mean is " << result;
+// }
+
+// 17. Write a BMI calculator
+
+// int main() {
+
+//     double weight, height;
+//      cout << "----------BMI Calculator----------\n";
+//     cout << "Enter your weight: ";
+//     cin >> weight;
+
+//     cout << "Enter your height: (in meters) ";
+//     cin >> height;
     
+//     double bmi =  weight / pow(height, 2);
+//     cout << "Your BMI is " << bmi;
 
-    return 0;
-}
+//     if (bmi < 17.8) {
+//         cout << "\nYour BMI is catogerized as underweight";
+//     } else if (bmi > 26.1) {
+//         cout << "\nYour BMI is catogerized as overweight";
+//     } else cout << "\nYour BMI is catogerized as healthy weight";
 
+//     return 0;
+// }
+
+// 30. Make a program that reads a value of a product and the tax, in percentage, and calculates the final value of it.
+
+// int main() {
+    
+//     double value, tax;
+//     cout << "Enter the value of the product: ";
+//     cin >> value;
+
+//     cout << "Enter the tax percentage ";
+//     cin >> tax;
+
+//     // taksa value puta tax
+//     // ukupna cena price + taksa
+
+//     double taksa = value * (tax/100.0);
+//     double total = taksa + value;
+//     cout << "Final value of the product is: " << total;
+//     return 0;
+// }
