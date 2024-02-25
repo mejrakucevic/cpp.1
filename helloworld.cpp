@@ -510,40 +510,60 @@ using namespace std;
 
 // }
 
-int searchArr(int n, int numbers[], int element) {
-    for (int i = 0; i<n; i++) {
-        if (numbers[i] == element) {
-            return i;
-        }   
-    } return -1;
+// int searchArr(int n, int numbers[], int element) {
+//     for (int i = 0; i<n; i++) {
+//         if (numbers[i] == element) {
+//             return i;
+//         }   
+//     } return -1;
 
-}
+// }
 int main() {
-    string cars[] = {"Audi", "Opel", "Ferrari"};
-    int sum;
-    // int n = sizeof(car)/sizeof(string); // !!!!!!!!!!!!!!!!!!!!!!!!
 
-    // for each loop
-    //  for (int number : numbers) {
-    //     cout << number;
-    //  }
+    // BUBBLE SORT ALGORITHM
+    // int arr[] = {7,6,99,20,1,5,3};
+    // int n = sizeof(arr)/sizeof(int);
+
+    // int temp;
+
+    // for (int i = 0; i < n; i++) {
+    //     for (int j = 0; j < n-1; j++) {
+    //         if (arr[j] > arr[j+1]) {
+    //             temp = arr[j];
+    //             arr[j] = arr[j+1];
+    //             arr[j+1] = temp;
+    //         }
+    //     }
+    // }
+
+    // for (int i = 0; i < n; i++) {
+    //     cout << arr[i] << " ";
+    // }
+    // string cars[] = {"Audi", "Opel", "Ferrari"};
+    // int sum;
+    // // int n = sizeof(car)/sizeof(string); // !!!!!!!!!!!!!!!!!!!!!!!!
+
+    // // for each loop
+    // //  for (int number : numbers) {
+    // //     cout << number;
+    // //  }
 
 
-    int numbers[] = {9, 64, 32, 344};
-    int n = sizeof(numbers)/sizeof(int);
-    // int total = getTotal(numbers, n);
-    // cout << total;
+    // int numbers[] = {9, 64, 32, 344};
+    // int n = sizeof(numbers)/sizeof(int);
+    // // int total = getTotal(numbers, n);
+    // // cout << total;
 
-    int num, index;
-    cout << "Enter a number to search for: ";
-    cin >> num;
-    index = searchArr(n, numbers, num);
+    // int num, index;
+    // cout << "Enter a number to search for: ";
+    // cin >> num;
+    // index = searchArr(n, numbers, num);
     
-    if (index != -1) {
-        cout << num << " is at index " << index;
-    } else {
-        cout << num << " not found ";
-    }
+    // if (index != -1) {
+    //     cout << num << " is at index " << index;
+    // } else {
+    //     cout << num << " not found ";
+    // }
 
     
    
