@@ -536,6 +536,31 @@ int main() {
     //     }
     // }
 
+   // string pizzas[5] = {"pizza","pizza","pizza","pizza","pizza" };
+
+    // string foods[50];
+    // fill (foods, foods+50, "apple");
+    // for (string food: foods) {
+    //     cout << food << " ";
+
+    // }
+
+    string foods[3];
+    int n = sizeof(foods)/sizeof(string);
+      
+      // USER INPUT IN ARR
+    for (int i = 0; i<n; i++) {
+        cout << "Enter a food you like #" << i+1 << ": ";
+        getline(cin, foods[i]);
+       
+    }
+     cout << "You like: ";
+     for (int i = 0; i<n; i++) {
+        cout << foods[i] << " ";
+       
+    }
+
+
     // for (int i = 0; i < n; i++) {
     //     cout << arr[i] << " ";
     // }
