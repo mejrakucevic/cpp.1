@@ -7,7 +7,7 @@
 
 // typedef std::string string_t;
 
-using namespace std;
+//using namespace std;
 
 // void happyBday(string name, int age) {  // function = a block of reusable code
 
@@ -518,7 +518,7 @@ using namespace std;
 //     } return -1;
 
 // }
-int main() {
+//int main() {
 
     // BUBBLE SORT ALGORITHM
     // int arr[] = {7,6,99,20,1,5,3};
@@ -545,20 +545,20 @@ int main() {
 
     // }
 
-    string foods[3];
-    int n = sizeof(foods)/sizeof(string);
+    // string foods[3];
+    // int n = sizeof(foods)/sizeof(string);
       
-      // USER INPUT IN ARR
-    for (int i = 0; i<n; i++) {
-        cout << "Enter a food you like #" << i+1 << ": ";
-        getline(cin, foods[i]);
+    //   // USER INPUT IN ARR
+    // for (int i = 0; i<n; i++) {
+    //     cout << "Enter a food you like #" << i+1 << ": ";
+    //     getline(cin, foods[i]);
        
-    }
-     cout << "You like: ";
-     for (int i = 0; i<n; i++) {
-        cout << foods[i] << " ";
+    // }
+    //  cout << "You like: ";
+    //  for (int i = 0; i<n; i++) {
+    //     cout << foods[i] << " ";
        
-    }
+    // }
 
 
     // for (int i = 0; i < n; i++) {
@@ -595,6 +595,27 @@ int main() {
     //cout << car[1];
     
    
-    return 0;
+//     return 0;
 
+// }
+
+using namespace std;
+
+int main() {
+    //  string cars[][3] = { 
+    //                     {"car1", "car2", "car3"},
+    //                     {"car4", "car5", "car6"},
+    //                     {"car7", "car8", "car9"},
+    //  };
+
+    //  int rows = sizeof(cars)/sizeof(cars[0]);
+    //  int columns = sizeof(cars[0])/sizeof(cars[0][0]);
+    //  for (int i = 0; i < rows; i++) {
+    //      cout << "\n";
+    //     for (int j = 0; j < columns; j++) {
+    //         cout << cars[i][j] <<" ";
+    //     }
+    //  }
+
+    // return 0;
 }
