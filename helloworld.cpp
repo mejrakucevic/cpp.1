@@ -601,20 +601,30 @@
 
 using namespace std;
 
-void swap(string &x, string &y) {
-    string temp;
+// void swap(string &x, string &y) {
+//     string temp;
 
-    temp = x;
-    x = y;
-    y = temp;
+//     temp = x;
+//     x = y;
+//     y = temp;
+
+// }
+
+void printInfo(const string name, const int age) {
+    //age = 20;
+    cout << name << "\n";
+    cout << age;
 
 }
 int main() {
-    string x = "pepsi";
-    string y = "cola";
+    string name = "Mejra";
+    int age= 19;
+    printInfo(name, age);
+    // string x = "pepsi";
+    // string y = "cola";
     
-     swap(x, y);
-    cout << "X: " << x << '\n' << "Y: " << y;
+    //  swap(x, y);
+    // cout << "X: " << x << '\n' << "Y: " << y;
     
     // string name = "Mejra";
     // int age = 19;
