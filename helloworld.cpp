@@ -601,7 +601,29 @@
 
 using namespace std;
 
+void swap(string &x, string &y) {
+    string temp;
+
+    temp = x;
+    x = y;
+    y = temp;
+
+}
 int main() {
+    string x = "pepsi";
+    string y = "cola";
+    
+     swap(x, y);
+    cout << "X: " << x << '\n' << "Y: " << y;
+    
+    // string name = "Mejra";
+    // int age = 19;
+    // bool student = true;
+
+    // & - memory adress = location in memory where data is stores
+    // cout << &name << '\n';
+    // cout << &age << "\n";
+    // cout << &student;
     //  string cars[][3] = { 
     //                     {"car1", "car2", "car3"},
     //                     {"car4", "car5", "car6"},
@@ -617,5 +639,5 @@ int main() {
     //     }
     //  }
 
-    // return 0;
+     return 0;
 }
