@@ -610,16 +610,30 @@ using namespace std;
 
 // }
 
-void printInfo(const string name, const int age) {
-    //age = 20;
-    cout << name << "\n";
-    cout << age;
+// void printInfo(const string name, const int age) {
+//     //age = 20;
+//     cout << name << "\n";
+//     cout << age;
 
-}
+// }
 int main() {
-    string name = "Mejra";
-    int age= 19;
-    printInfo(name, age);
+    // string name = "Mejra";
+    // int age= 19;
+    // string freePizzas[5] = {"pizza1", "pizza2","pizza3","pizza4","pizza5"};
+    // string *pFreePizzas = freePizzas;
+
+    // string *pName = &name;
+    // int *pAge = &age;
+
+    // cout << *pName;
+    // cout << *pAge;
+    // cout << pFreePizzas;
+
+    // int *pointer = nullptr;
+    // int x = 123;
+
+    // pointer = &x;
+    
     // string x = "pepsi";
     // string y = "cola";
     
