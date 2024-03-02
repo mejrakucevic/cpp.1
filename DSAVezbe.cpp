@@ -7,7 +7,7 @@ using namespace std;
 
 
 // ----------------------------------------------------------------------------------------------------------------------------------
-// Two Sum (1. Leetcode)
+// Two Sum (1. Leetcode) TREBA OPTIMIZACIJA▭ 
 
 // Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 // You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -37,7 +37,7 @@ using namespace std;
 // }};
 
 // ----------------------------------------------------------------------------------------------------------------------------------
-// Squares of a Sorted Array (977. Leetcode)
+// Squares of a Sorted Array (977. Leetcode) TREBA OPTIMIZACIJA▭ 
 
 // Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
 
@@ -54,9 +54,43 @@ using namespace std;
 
 // RESENJE
 
+// int squares(int nums[], int &n) {
+//     for (int i = 0; i < n; i++) {
+//         nums[i] = nums[i] * nums[i];
+        
+//     }
+
+//      for (int i = 0; i < n; i++) {
+//         cout << nums[i] << " ";
+        
+//     }
+// }
+// int sort(int nums[], int &n) {
+//     for (int i = 0; i < n; i++) {
+//         for (int j = i+1; j < n; j++) {
+//             if (nums[i] > nums[j]) {
+//                 int temp = nums[i];
+//                 nums[i] = nums[j];
+//                 nums[j] = temp;
+//             }
+//         }
+//     }
+//      for (int i = 0; i < n; i++) {
+//         cout << nums[i] << " ";  
+//     }
+// }
+// int main(){
+//     int nums[] = {-7,-3,2,3,11};
+//     int n = sizeof(nums)/sizeof(int);
+
+//     squares(nums, n);
+//     sort(nums, n);
+
+//     return 0;
+// }
 
 // ----------------------------------------------------------------------------------------------------------------------------------
-// Palindrome Number (9. Leetcode)
+// Palindrome Number (9. Leetcode) 
 
 // Given an integer x, return true if x is a 
 // palindrome and false otherwise.
@@ -73,5 +107,7 @@ using namespace std;
 // Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
 
 // RESENJE
+
+
 
 // ----------------------------------------------------------------------------------------------------------------------------------
