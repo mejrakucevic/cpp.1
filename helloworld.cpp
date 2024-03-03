@@ -644,8 +644,8 @@ int main() {
     // int age = 19;
     // bool student = true;
 
-    // & - memory adress = location in memory where data is stores
-    // cout << &name << '\n';
+    // & - memory adress = location iaaan memory where data is stores
+    // cout << &name << '\n';aa
     // cout << &age << "\n";
     // cout << &student;
     //  string cars[][3] = { 
