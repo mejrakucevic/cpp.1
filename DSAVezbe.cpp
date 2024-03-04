@@ -90,7 +90,7 @@ using namespace std;
 // }
 
 // ----------------------------------------------------------------------------------------------------------------------------------
-// Palindrome Number (9. Leetcode) 
+// Palindrome Number (9. Leetcode) TREBA OPTIMIZACIJA▭  al pod hitno
 
 // Given an integer x, return true if x is a 
 // palindrome and false otherwise.
@@ -109,13 +109,29 @@ using namespace std;
 // RESENJE
 
 int main() {
-     int x = 121;
+     int x = -121;
+     int digit;
+     string digits;
+
+     if (x < 0) {
+      return false;
+     }
     
       while (x>0) {
-        int digit = x%10;
-        cout << digit;
+        digit = x%10;                      // 121 % 10 = 1 -> 1 % 10 = 2 -> 2 % 10 = 2
+        digits += to_string(digit);
         x = x/10;
       }
+
+      string reversed = digits;
+      reverse(reversed.begin(), reversed.end());
+
+      if (reversed == digits) {
+        cout << "true";
+      } else cout << "false";
+
+       
+
     return 0;
 }
 
