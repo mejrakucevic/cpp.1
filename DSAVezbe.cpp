@@ -108,32 +108,29 @@ using namespace std;
 
 // RESENJE
 
-int main() {
-     int x = -121;
-     int digit;
-     string digits;
+// int main() {
+//      int x = -121;
+//      int digit;
+//      string digits;
 
-     if (x < 0) {
-      return false;
-     }
+//      if (x < 0) {
+//       return false;
+//      }
     
-      while (x>0) {
-        digit = x%10;                      // 121 % 10 = 1 -> 1 % 10 = 2 -> 2 % 10 = 2
-        digits += to_string(digit);
-        x = x/10;
-      }
+//       while (x>0) {
+//         digit = x%10;                      // 121 % 10 = 1 -> 1 % 10 = 2 -> 2 % 10 = 2
+//         digits += to_string(digit);
+//         x = x/10;
+//       }
 
-      string reversed = digits;
-      reverse(reversed.begin(), reversed.end());
+//       string reversed = digits;
+//       reverse(reversed.begin(), reversed.end());
 
-      if (reversed == digits) {
-        cout << "true";
-      } else cout << "false";
-
-       
-
-    return 0;
-}
+//       if (reversed == digits) {
+//         cout << "true";
+//       } else cout << "false";
+//     return 0;
+// }
 
 // ----------------------------------------------------------------------------------------------------------------------------------
 
@@ -156,3 +153,9 @@ int main() {
 
 // Input: list1 = [], list2 = [0]
 // Output: [0]
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// 39. Написати функцију која за унети арапски број приказује одговарајући римски број.
+// Тестни пример:
+// 2736 = MMDCCXXXVI

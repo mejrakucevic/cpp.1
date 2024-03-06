@@ -629,10 +629,17 @@ int main() {
     // cout << *pAge;
     // cout << pFreePizzas;
 
-    // int *pointer = nullptr;
-    // int x = 123;
+    int *pointer = nullptr;
+    int x = 123;
 
-    // pointer = &x;
+    pointer = &x;
+
+    int *point = nullptr;
+    int age = 19;
+
+    point = &age;
+
+    cout << age;
     
     // string x = "pepsi";
     // string y = "cola";
