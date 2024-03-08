@@ -306,6 +306,41 @@ using namespace std;
     //     }
     // }
 
+// 34. Написати функцију којом се проверава да ли су у броју N цифре сортиране у неопадајућем
+// редоследу од цифре јединица ка цифрама веће тежине. На пример у броју N=7433 јесу, а у
+// броју N=1322 нису.
+
+// int redosled(int n) {
+//     int broj1,broj;
+//     string brojevi;
+//     broj1 = n%10;
+//     n = n/10;
+
+    
+//     while (n>0) {
+//         broj = n%10;
+//          n = n/10;
+//         if (broj1 > broj) {
+//             return 0;
+//         } 
+//         broj1 = broj;
+//     }
+//     return 1;
+// }
+// int main() {
+//      int n = 7433;
+//      int broj1,broj;
+//      string brojevi;
+    
+//      int result = redosled(n);
+//      if (result == 1) {
+//         cout << "Cifre broja " << n << " su sortirane u neopadajucem redosledu." << endl;
+//     } else {
+//         cout << "Cifre broja " << n << " nisu sortirane u neopadajucem redosledu." << endl;
+//     }
+//     return 0;
+// }
+
 // 39. Написати функцију која за унети арапски број приказује одговарајући римски број.
 // Тестни пример:
 // 2736 = MMDCCXXXVI
