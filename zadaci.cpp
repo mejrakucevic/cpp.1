@@ -350,3 +350,100 @@ using namespace std;
 // 12321 (јесте), 2343 (није).
 // б) Написати потпрограм и главни програм који са стандардног улаза прихвата n бројева (све
 // док корисник не унесе 0) и проверава да ли су унесени бројеви палиндроми.
+
+
+// 49. Дат је низ целих бројева. Написати функцију која рачуна суму елемената низа.
+
+// int sumica(int brojevi[], int n) {
+//     int suma = 0;
+
+//     for (int i = 0; i <n; i++) {
+//         suma += brojevi[i];
+//     }
+//     return suma;
+
+// }
+// int main() {
+//      int brojevi[] = {1,2,3,4,5};
+    
+//      int n = sizeof(brojevi)/sizeof(int);
+   
+//      cout << "Suma je: " << sumica(brojevi, n);
+
+//      return 0;
+
+// }
+
+// 42.
+// а) Имплементирати функцију која на основу унете 4 цифре формира четвороцифрени број А
+// на следећи начин:
+// – Прва унета цифра представља цифру хиљаде, друга цифру стотине, трећа цифру десетице и
+// четврта цифру јединице.
+// – Цифре могу да се понављају.
+// – Цифре морају бити у интервалу од 1 до 5. У случају да је корисник унео цифру која није у
+// интервалу од 1 до 5 поновити унос. Максималан број покушаја за унос сваке цифре је 4.
+
+
+// int brojA() {
+
+//     int pokusaji = 0;
+//      int n1,n2,n3,n4;
+
+//     for (int i = 0; i <= 4; i++) { 
+//         cout << "Unesite cifru hiljade (od 1 do 5): ";
+//         cin >> n1;
+//         if (n1 > 5) {
+//             pokusaji += 1;
+
+//         } else break;
+//         if (pokusaji >= 4) {
+//             break;
+//         }
+//     }
+
+//      for (int i = 0; i <= 4; i++) { 
+//         cout << "Unesite cifru stotine (od 1 do 5): ";
+//         cin >> n2;
+//         if (n2 > 5) {
+//             pokusaji += 1;
+
+//         } else break;
+//         if (pokusaji >= 4) {
+//             break;
+//         }
+//     }
+
+//     for (int i = 0; i <= 4; i++) { 
+//         cout << "Unesite cifru desetine (od 1 do 5): ";
+//         cin >> n3;
+//         if (n3 > 5) {
+//             pokusaji += 1;
+
+//         } else break;
+//         if (pokusaji >= 4) {
+//             break;
+//         }
+//     }
+
+//     for (int i = 0; i <= 4; i++) { 
+//         cout << "Unesite cifru jedinice (od 1 do 5): ";
+//         cin >> n4;
+//         if (n4 > 5) {
+//             pokusaji += 1;
+
+//         } else break;
+//         if (pokusaji >= 4) {
+//             break;
+//         }
+//     }
+
+//     string broj = to_string(n1) +  to_string(n2) + to_string(n3) +  to_string(n4);
+//     cout << broj;
+
+// }
+// int main() {
+
+//     brojA();
+    
+//     return 0;
+// }
