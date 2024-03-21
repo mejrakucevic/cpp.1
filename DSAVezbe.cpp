@@ -159,3 +159,57 @@ using namespace std;
 // 39. Написати функцију која за унети арапски број приказује одговарајући римски број.
 // Тестни пример:
 // 2736 = MMDCCXXXVI
+
+// Symbol       Value
+// I             1
+// V             5
+// X             10
+// L             50
+// C             100
+// D             500
+// M             1000
+
+int main() {
+    int I = 1;
+    int V = 5;
+    int X = 10;
+    int L = 50;
+    int C = 100;
+    int D = 500;
+    int M = 1000;
+     
+    char b;
+    cout << "UKUCAJTE NEKI BROJ: ";
+    cin >> b;
+    int r = 0;
+
+         int i = 0;
+      while (i <= 2) { 
+        if (b == 'I') {
+            r += I;
+            i++;
+           
+        }  if (b == 'V') {
+            r += V;
+             i++;
+            
+        }  if (b == 'X') {
+            r += X;
+             i++;
+        }  if (b == 'L') {
+            r += L;
+        }  if (b == 'C') {
+            r += C;
+        }  if (b == 'D') {
+            r += D;
+        }  if (b == 'M') {
+            r += M;
+        } 
+     }
+                
+
+    
+    cout << r;
+   
+    return 0;
+}
