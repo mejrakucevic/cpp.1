@@ -184,7 +184,7 @@ int main() {
     int r = 0;
 
          int i = 0;
-      while (i <= 2) { 
+         while (i <= 2) { 
         if (b == 'I') {
             r += I;
             i++;

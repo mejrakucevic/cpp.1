@@ -616,7 +616,38 @@ using namespace std;
 //     cout << age;
 
 // }
+using std::string;
+class Ljudovi {
+    public :
+    string Name;
+     int god;
+     string mbti;
+     
+     void introduce() {
+        cout << "\nINFO: \nName: " << Name << "\nAge: " << god << "\nMbti: "<< mbti;
+
+     }
+
+};
 int main() {
+    Ljudovi Ljudov1;
+    Ljudov1.god = 2000;
+    Ljudov1.mbti = "ENTJ";
+    Ljudov1.Name = "Ena";
+    Ljudov1.introduce();
+
+    Ljudovi Ljudov2;
+    Ljudov2.god = 2006;
+    Ljudov2.mbti = "ENTJ";
+    Ljudov2.Name = "Monika";
+    Ljudov2.introduce();
+    
+
+
+
+
+
+
     // string name = "Mejra";
     // int age= 19;
     // string freePizzas[5] = {"pizza1", "pizza2","pizza3","pizza4","pizza5"};
@@ -629,17 +660,17 @@ int main() {
     // cout << *pAge;
     // cout << pFreePizzas;
 
-    int *pointer = nullptr;
-    int x = 123;
+    // int *pointer = nullptr;
+    // int x = 123;
 
-    pointer = &x;
+    // pointer = &x;
 
-    int *point = nullptr;
-    int age = 19;
+    // int *point = nullptr;
+    // int age = 19;
 
-    point = &age;
+    // point = &age;
 
-    cout << age;
+    // cout << age;
     
     // string x = "pepsi";
     // string y = "cola";
