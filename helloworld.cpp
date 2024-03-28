@@ -616,30 +616,47 @@ using namespace std;
 //     cout << age;
 
 // }
-using std::string;
+
+class BankAccount {
+  public:
+    string holderName;
+    int accNumber;
+    float balance;
+
+    void balance() {
+        cout << "Balance is: " << balance;
+    }
+
+};
+
+
 class Ljudovi {
     public :
-    string Name;
-     int god;
-     string mbti;
+    string name;
+    int god;
+    string mbti;
      
      void introduce() {
-        cout << "\nINFO: \nName: " << Name << "\nAge: " << god << "\nMbti: "<< mbti;
+        cout << "\nINFO: \nName: " << name << "\nAge: " << god << "\nMbti: "<< mbti;
+
+     }
+      
+      // constructor
+     Ljudovi(string n, int g, string m) {
+        name = n;
+        god = g;
+        mbti = m;
 
      }
 
 };
 int main() {
-    Ljudovi Ljudov1;
-    Ljudov1.god = 2000;
-    Ljudov1.mbti = "ENTJ";
-    Ljudov1.Name = "Ena";
+    Ljudovi Ljudov1=Ljudovi("Ena", 2000, "ENTJ");
+   
     Ljudov1.introduce();
 
-    Ljudovi Ljudov2;
-    Ljudov2.god = 2006;
-    Ljudov2.mbti = "ENTJ";
-    Ljudov2.Name = "Monika";
+    Ljudovi Ljudov2=Ljudovi("Mejra", 2004, "INFJ");;
+
     Ljudov2.introduce();
     
 
